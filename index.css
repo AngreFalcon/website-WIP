@@ -1,0 +1,112 @@
+html {
+	height: 100%
+}
+
+body {
+	background-image: url(./backgroundfalc.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top right;
+	background-repeat: no-repeat;
+	padding-top: 60px;
+	padding-right: 25%;
+}
+
+nav.header {
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-family: Arial;
+	background-color: #2E2E2E;
+}
+
+nav.header ul, aside ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav.header ul li {
+	float: left;
+	width: 120px;
+}
+
+nav.header ul li a {
+	display: block;
+	padding: 20px 10px;
+	background-color: #2E2E2E;
+	color: #DBDBDB;
+	text-decoration: none;
+}
+
+nav.header ul li a:hover {
+	background-color: #202020;
+}
+
+nav.header h3 {
+	height: 0;
+	padding: 18px;
+	padding-right: 20%;
+	margin: 0;
+	text-decoration: none;
+	color: #DBDBDB;
+}
+
+#active {
+	background-color: #3E3E3E;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#main-body div {
+	width: 31.5%;
+	padding: 10px;
+	border: solid;
+	border-width: 1px;
+	background-color: rgba(255, 255, 255, 0.15);
+}
+
+#main-body div:hover {
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+aside {
+	top: 60px;
+	right: 0;
+	width: 25%;
+	height: 100%;
+	border-top: solid;
+	border-width: 1px;
+	position: fixed;
+	text-align: center;
+	background-color: #2E2E2E;
+}
+
+aside img {
+	width: 90%;
+	height: 100%;
+	border: solid;
+	border-width: 1px;
+	border-top: none;
+}
+
+#sidebar-desc {
+	width: 90%;
+	border: solid;
+	border-width: 1px;
+	color: #C0C0C0;
+	position: relative;
+	left: 5%;
+}
