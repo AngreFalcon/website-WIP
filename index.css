@@ -3,11 +3,8 @@ html {
 }
 
 body {
-	background-image: url(./backgroundfalc.jpg);
+	background: url(./backgroundfalc.jpg) top right/cover no-repeat, linear-gradient(45deg, #FCFCFC, #5C6F7C);
 	background-attachment: fixed;
-	background-size: cover;
-	background-position: top right;
-	background-repeat: no-repeat;
 	padding-top: 60px;
 	padding-right: 25%;
 }
@@ -19,7 +16,7 @@ nav.header {
 	left: 0;
 	width: 100%;
 	font-family: Arial;
-	background-color: #2E2E2E;
+	background-color: #292D30;
 }
 
 nav.header ul, aside ul {
@@ -36,13 +33,13 @@ nav.header ul li {
 nav.header ul li a {
 	display: block;
 	padding: 20px 10px;
-	background-color: #2E2E2E;
+	background-color: #292D30;
 	color: #DBDBDB;
 	text-decoration: none;
 }
 
 nav.header ul li a:hover {
-	background-color: #202020;
+	background-color: #02111B;
 }
 
 nav.header h3 {
@@ -55,7 +52,7 @@ nav.header h3 {
 }
 
 #active {
-	background-color: #3E3E3E;
+	background-color: #3E4244;
 }
 
 .flex-row {
@@ -76,11 +73,11 @@ nav.header h3 {
 	padding: 10px;
 	border: solid;
 	border-width: 1px;
-	background-color: rgba(255, 255, 255, 0.15);
+	background-color: rgba(252, 252, 252, 0.15);
 }
 
 #main-body div:hover {
-	background-color: rgba(255, 255, 255, 0.75);
+	background-color: rgba(252, 252, 252, 0.75);
 }
 
 aside {
@@ -92,7 +89,7 @@ aside {
 	border-width: 1px;
 	position: fixed;
 	text-align: center;
-	background-color: #2E2E2E;
+	background-color: #292D30;
 }
 
 aside img {
